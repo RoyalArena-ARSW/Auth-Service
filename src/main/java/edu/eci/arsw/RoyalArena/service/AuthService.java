@@ -1,21 +1,20 @@
-package edu.eci.arsw.royalarena.auth.service;
+package edu.eci.arsw.RoyalArena.service;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import edu.eci.arsw.royalarena.auth.dto.request.LoginRequestDTO;
-import edu.eci.arsw.royalarena.auth.dto.request.RegisterRequestDTO;
-import edu.eci.arsw.royalarena.auth.dto.response.AuthResponseDTO;
-import edu.eci.arsw.royalarena.auth.dto.response.UserResponseDTO;
-import edu.eci.arsw.royalarena.auth.exception.InvalidCredentialsException;
-import edu.eci.arsw.royalarena.auth.exception.UserAlreadyExistsException;
-import edu.eci.arsw.royalarena.auth.mappers.UserMapper;
-import edu.eci.arsw.royalarena.auth.model.User;
-import edu.eci.arsw.royalarena.auth.model.enums.AuthProvider;
-import edu.eci.arsw.royalarena.auth.model.enums.Role;
-import edu.eci.arsw.royalarena.auth.repository.UserRepository;
-
+import edu.eci.arsw.RoyalArena.dto.request.LoginRequestDTO;
+import edu.eci.arsw.RoyalArena.dto.request.RegisterRequestDTO;
+import edu.eci.arsw.RoyalArena.dto.response.AuthResponseDTO;
+import edu.eci.arsw.RoyalArena.dto.response.UserResponseDTO;
+import edu.eci.arsw.RoyalArena.exception.InvalidCredentialsException;
+import edu.eci.arsw.RoyalArena.exception.UserAlreadyExistsException;
+import edu.eci.arsw.RoyalArena.mappers.UserMapper;
+import edu.eci.arsw.RoyalArena.model.enums.AuthProvider;
+import edu.eci.arsw.RoyalArena.model.enums.Role;
+import edu.eci.arsw.RoyalArena.model.enums.User;
+import edu.eci.arsw.RoyalArena.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
