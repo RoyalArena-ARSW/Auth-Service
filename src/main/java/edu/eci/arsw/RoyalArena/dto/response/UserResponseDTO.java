@@ -2,6 +2,8 @@ package edu.eci.arsw.RoyalArena.dto.response;
 
 import java.time.LocalDateTime;
 
+import edu.eci.arsw.RoyalArena.model.enums.AuthProvider;
+import edu.eci.arsw.RoyalArena.model.enums.Role;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
