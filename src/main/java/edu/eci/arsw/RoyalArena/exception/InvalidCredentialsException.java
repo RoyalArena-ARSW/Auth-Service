@@ -1,4 +1,4 @@
-package edu.eci.arsw.royalarena.auth.exception;
+package edu.eci.arsw.RoyalArena.exception;
 
 /**
  * Se lanza cuando las credenciales de login son incorrectas:

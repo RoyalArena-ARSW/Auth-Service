@@ -1,4 +1,4 @@
-package edu.eci.arsw.royalarena.auth.dto.request;
+package edu.eci.arsw.RoyalArena.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 
