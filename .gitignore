@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+*.class
+
+# Local dev configs (contienen credenciales)
+src/main/resources/application-local.properties
+application-local.properties
+
+# Environment files
+.env
