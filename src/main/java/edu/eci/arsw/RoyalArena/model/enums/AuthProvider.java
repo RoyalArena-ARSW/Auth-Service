@@ -1,4 +1,4 @@
-package edu.eci.arsw.royalarena.auth.model.enums;
+package edu.eci.arsw.RoyalArena.model.enums;
 
 /**
  * Método por el cual el usuario se registró.
