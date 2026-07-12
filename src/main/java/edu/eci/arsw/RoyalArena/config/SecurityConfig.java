@@ -1,4 +1,4 @@
-package edu.eci.arsw.royalarena.auth.config;
+package edu.eci.arsw.RoyalArena.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
