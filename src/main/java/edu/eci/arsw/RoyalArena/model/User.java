@@ -1,10 +1,8 @@
-package edu.eci.arsw.RoyalArena.model.enums;
+package edu.eci.arsw.RoyalArena.model;
 
 import java.time.LocalDateTime;
 
 import edu.eci.arsw.RoyalArena.model.enums.AuthProvider;
-import edu.eci.arsw.RoyalArena.model.enums.Role;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

@@ -3,12 +3,12 @@ package edu.eci.arsw.RoyalArena.mappers;
 import org.mapstruct.Mapper;
 
 import edu.eci.arsw.RoyalArena.dto.response.UserResponseDTO;
-import edu.eci.arsw.RoyalArena.model.enums.User;
+import edu.eci.arsw.RoyalArena.model.User;
 
 
 
 @Mapper(componentModel = "spring")
-public interface UserMapper {
+public interface UserMapper{
 
     /**
      * Convierte User a UserResponseDTO. MapStruct mapea automáticamente todos
