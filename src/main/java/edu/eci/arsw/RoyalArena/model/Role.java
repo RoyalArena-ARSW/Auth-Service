@@ -1,4 +1,4 @@
-package edu.eci.arsw.RoyalArena.model.enums;
+package edu.eci.arsw.RoyalArena.model;
 
 /**
  * Roles disponibles en el sistema.

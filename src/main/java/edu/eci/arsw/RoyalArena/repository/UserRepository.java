@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import edu.eci.arsw.RoyalArena.model.enums.User;
+import edu.eci.arsw.RoyalArena.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
